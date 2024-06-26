@@ -1,0 +1,59 @@
+/*Geral*/
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000000fd;
+    padding-right: 100px;
+}
+
+.imgsaw {
+    display: inline-block;
+    justify-content: left;
+    margin-right: 150px;
+    height: 55vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #e90e0ecb;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input::placeholder {
+    color: #1212129e;
+    font-size: 15px;
+    font-family: "Oxanium", sans-serif;
+    text-align: center;
+}
+
+input {
+    width: 50%;
+    height: 20px;
+    background-color: #f8f8f8a5;
+    border: solid 3px #001308;
+    padding: 20px 15px;
+    border-radius: 30px;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "Oxanium", sans-serif;
+    
+}
